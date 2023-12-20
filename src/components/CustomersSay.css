@@ -1,0 +1,23 @@
+/* .testimonials {
+  margin-bottom: 2rem;
+} */
+
+.testimonials-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.testimonials-title {
+  margin-bottom: 2.5rem;
+}
+
+.testimonials-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.testimonials-item {
+  flex-basis: calc((100% - 2.5rem) / 3);
+}

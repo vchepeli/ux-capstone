@@ -1,0 +1,12 @@
+.stars-container {
+  display: flex;
+  gap: 0.3rem;
+  color: var(--color-brand-light);
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

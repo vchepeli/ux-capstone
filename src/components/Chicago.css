@@ -1,0 +1,45 @@
+.chicago-section {
+  background-color: var(--color-brand-light);
+}
+
+.chicago-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.chicago-content {
+  flex-basis: 50%;
+}
+
+.chicago-title {
+  margin-bottom: 2.5rem;
+}
+
+.chicago-text .brand {
+  color: var(--color-brand-normal);
+  font-weight: 600;
+}
+
+.chicago-text .uppercase {
+  text-transform: uppercase;
+}
+
+.chicago-img {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.chicago-img img {
+  position: absolute;
+  right: 0;
+  top: -9.5rem;
+  width: 50%;
+  height: auto;
+}
+
+.chicago-img .top-image {
+  right: 8rem;
+  top: -3rem;
+}

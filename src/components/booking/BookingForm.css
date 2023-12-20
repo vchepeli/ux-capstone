@@ -1,0 +1,83 @@
+.booking-form-container fieldset {
+  border: none;
+}
+
+.booking-form-container .field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.booking-form-container .field label {
+  font-size: 18px;
+  margin: 0 0 5px 0px;
+  font-weight: 500;
+}
+
+.booking-form-container input {
+  padding: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.booking-form-container input[type="datetime-local"] {
+  color: #949494;
+}
+
+.booking-form-container .guestsdate {
+  display: grid;
+  grid-template-columns: 68% 28%;
+  gap: 4%;
+}
+
+.booking-form-container .occasion {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form-container .options {
+  padding-right: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+}
+
+.booking-form-container select {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 15px;
+  color: #949494;
+}
+
+.booking-form-btn {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.booking-form-btn:hover {
+  background-color: #495e57;
+  transition: 0.3s;
+}
+
+.error-message {
+  font-size: 15px;
+  color: red;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .guestsdate {
+    display: flex;
+    flex-direction: column;
+  }
+}

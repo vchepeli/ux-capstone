@@ -1,0 +1,52 @@
+
+.hero-section {
+  background-color: var(--color-brand-normal);
+}
+
+.hero-title {
+  margin-bottom: 1.5rem;
+  color: var(--color-primary-light);
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.hero-title .accent {
+  color: var(--color-brand-light);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 45rem;
+}
+
+.hero-photo {
+  max-height: 45vh;
+  width: auto;
+}
+
+.hero-text {
+  flex-grow: 1;
+}
+
+.hero-button {
+  align-self: baseline;
+  padding: 1rem 2rem;
+  color: var(--color-primary-dark);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero-button:hover {
+  color: var(--color-primary-light);
+  background-color: transparent;
+}

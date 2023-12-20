@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem
+}
+
+  /* .header-cart {
+    display: flex;
+    align-items: center;
+  } */
+
+  /* .header-cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+  } */
+
+  .header-cart-icon {
+    /* color: none */
+    /* background-color: transparent; */
+    /* color: transparent; */
+    /* background-color:white; */
+    /* background: transparent; */
+    /* background-color: yellow; */
+    /* border: none; */
+    /* cursor: pointer; */
+  }

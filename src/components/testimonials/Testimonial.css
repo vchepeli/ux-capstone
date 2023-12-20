@@ -1,0 +1,28 @@
+.testimonial-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.testimonial-card {
+  padding: 1.5rem;
+  border: 2px solid lightgray;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.testimonial-blockquote {
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-left: 5px solid #ffcc00;
+}

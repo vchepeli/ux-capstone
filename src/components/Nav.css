@@ -1,0 +1,36 @@
+.nav-main {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 2.5rem;
+  padding-top: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4rem;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav-logo {
+  height: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  color: var(--color-brand-light);
+}
+
